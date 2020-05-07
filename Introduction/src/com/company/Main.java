@@ -16,5 +16,14 @@ public class Main {
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
+
+        int i = scanner.nextInt();
+        scanner.nextLine();
+        double d = scanner.nextDouble();
+        scanner.nextLine();
+        String s = scanner.nextLine();
+        System.out.println("String is " + s);
+        System.out.println("Double is " + d);
+        System.out.println("integer is " + i);
     }
 }
