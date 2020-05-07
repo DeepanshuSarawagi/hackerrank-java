@@ -1,9 +1,20 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
         System.out.println("Hello, World.");
         System.out.println("Hello, Java.");
+
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
+
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
     }
 }
